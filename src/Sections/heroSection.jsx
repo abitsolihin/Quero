@@ -65,6 +65,7 @@ return (
         className="absolute bottom-6 right-6 z-10 animate-bounce"
         src={scrolldown}
         alt="scrolldown"
+        loading="lazy"
     />
     <div data-aos='fade-right'  className="hero-left__section flex-1 h-screen flex items-center justify-center md:justify-start relative pl-4">
         <div className="circle rounded-full bg-slate-100 opacity-25 translate-y-10 border-t-2  border-white border-solid w-[400px] h-[400px] md:w-[500px]  md:h-[500px] absolute z-[-1]" />
@@ -75,6 +76,7 @@ return (
         className="w-[350px] h-[300px] md:w-[500px] md:h-[450px] drop-shadow-lg"
         src={imageSelected}
         alt="Sandal Quero"
+        loading="lazy"
         />
     </div>
     <div className="hero-right__section flex-1 h-screen flex flex-col justify-center pl-4 relative">
@@ -83,6 +85,7 @@ return (
         className="absolute hidden md:block right-5 -z-10 scale-75 md:scale-100"
         src={pattern1}
         alt="Quero"
+        loading="lazy"
         />
         <h2 data-aos='fade-right' data-aos-delay='50' className="text-xl md:text-2xl font-light md:text-[#0D7A7F] text-[#000000]">
         Modern Slipper
@@ -105,7 +108,7 @@ return (
                 }
                 key={image}
                 >
-                <img src={image} alt="Sandal Quero" />
+                <img src={image} alt="Sandal Quero" loading="lazy" />
                 </div>
             );
             })}
