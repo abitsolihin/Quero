@@ -110,7 +110,7 @@
                 );
                 })}
             </div>
-            <div data-aos='fade-right' data-aos-delay='250' className="button">
+            <div data-aos='fade-right' data-aos-delay='250' data-aos-offset="-1" className="button">
                 <button className="px-6 py-3 border-2 border-[#0D7A7F] rounded my-4 bg-[#0D7A7F] text-white">
                     <a href="https://shp.ee/67tcjr6">Go Shopping</a>
                 </button>

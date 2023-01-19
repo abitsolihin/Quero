@@ -11,7 +11,7 @@ const Navbar = () => {
       }, [])
     return (
         <nav data-aos="fade-down" className='relative z-10 '>
-            <div className="nav-wrapper inline-flex items-center content-center fixed w-screen duration-200 z-10  py-3 px-8 bg-white">
+            <div className={`nav-wrapper inline-flex items-center content-center fixed w-screen duration-200 z-10  py-3 px-8 ${isOpen ? 'bg-white' : 'bg-transparent'}`}>
             <div  className="logo md:flex-none flex-1 flex items-center">
                 <a href="" className='font-bold flex items-center justify-center'>
                     <img className='w-[150px]' src={logo} alt="Quero" /></a>

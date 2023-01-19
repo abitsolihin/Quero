@@ -8,8 +8,8 @@ const Footer = () => {
     Aos.init({})
   },[])
   return (
-    <div className='h-[50vh] w-full bg-[#1b8187] flex flex-col'>
-      <div className="content flex items-start justify-center flex-1 py-20 md:p-20 w-full px-4">
+    <div className='h-[30vh] md:h-[50vh] w-full bg-[#1b8187] flex flex-col'>
+      <div className="content flex items-start justify-center flex-1 pt-10 md:p-20 w-full px-4">
         <div className="logo hidden md:flex-1 md:flex items-center justify-center">
           <img className='w-[128px] bg-white p-2 rounded-full' src={logo} alt="" />
         </div>
