@@ -1,7 +1,6 @@
 import React from 'react'
-import Footer from '../Component/Footer'
 import AboutSection from '../Sections/AboutSection'
-import HeroSection from '../Sections/HeroSection'
+import HeroSection from '../Sections/heroSection'
 import QueroSection from '../Sections/QueroSection'
 import TestimoniSection from '../Sections/TestimoniSection'
 
