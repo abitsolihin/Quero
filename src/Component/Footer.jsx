@@ -25,7 +25,7 @@ const Footer = () => {
         <div className="socials flex-1 flex flex-col justify-center">
         <h1 className='text-xl md:text-2xl text-white'>Social Media:</h1>
           <ul className='text-white list-disc pl-4 text-sm md:text-base'>
-            <li className=''><a href="https://instagram/quero.id">Instagram</a></li>
+            <li className=''><a href="https://instagram.com/quero.id">Instagram</a></li>
             <li className=''><a href="https://wa.me/message/QZ3C2SET6B24A1">Whatsapp</a></li>
             <li className=''><a href="https://www.tiktok.com/@querostore.id">TikTok</a></li>
           </ul>
@@ -35,7 +35,7 @@ const Footer = () => {
           <ul className='text-white list-disc pl-4 text-sm md:text-base'>
             <li className=''><a href="https://shopee.co.id/querostore.id">Shopee</a></li>
             <li className=''><a href="https://www.tiktok.com/@querostore.id">TikTok Shop</a></li>
-            <li className=''><a href="https://instagram/quero.id">Instagram</a></li>
+            <li className=''><a href="https://instagram.com/quero.id">Instagram</a></li>
             <li className=''><a href="https://wa.me/message/QZ3C2SET6B24A1">Whatsapp</a></li>
             <li className=''><a href="https://tokopedia.link/quero.store">Tokopedia</a></li>
           </ul>

@@ -36,7 +36,7 @@ const Navbar = () => {
                         <a className="px-5 py-3 text-slate-400 hover:bg-gray-200 hover:text-slate-900 hover:rounded-b" href="https://www.tiktok.com/@querostore.id">
                             TikTok Shop
                         </a>
-                        <a className="px-5 py-3 text-slate-400 hover:bg-gray-200 hover:text-slate-900 hover:rounded-b" href="https://instagram/quero.id">
+                        <a className="px-5 py-3 text-slate-400 hover:bg-gray-200 hover:text-slate-900 hover:rounded-b" href="https://instagram.com/quero.id">
                             Instagram
                         </a>
                         <a className="px-5 py-3 text-slate-400 hover:bg-gray-200 hover:text-slate-900 hover:rounded-b" href="https://wa.me/message/QZ3C2SET6B24A1">
