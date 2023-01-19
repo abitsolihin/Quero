@@ -21,7 +21,7 @@ const AboutSection = () => {
         <p data-aos='fade-right' data-aos-delay='150' className='text-base md:text-xl md:w-[465px]'><span className='font-bold'>QUERO</span> adalah sandal modern yang dicirikan oleh desain minimalis yang elegan. Desainnya yang sederhana dan bersih membuatnya cocok untuk digunakan dalam berbagai situasi, baik formal maupun casual. Dapat ditemukan dalam warna-warna netral yang cocok digabungkan dengan berbagai pakaian. Detail desain yang diperhatikan dengan baik, sehingga sandal ini terlihat mewah tanpa terkesan berlebihan. sangat cocok untuk para pecinta minimalis style.</p>
       </div>
       <div data-aos='fade-left' data-aos-delay='200' className="right-about__content flex-1 flex justify-center">
-        <img className='w-[300px] md:w-full' src={aboutimage} alt="" />
+        <img className='w-[400px] md:w-full' src={aboutimage} alt="" />
       </div>
       </div>
     </div>
