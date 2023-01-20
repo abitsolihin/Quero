@@ -68,12 +68,12 @@ return (
         loading="lazy"
     />
     <div data-aos='fade-right'  className="hero-left__section flex-1 h-screen flex items-center justify-center md:justify-start relative pl-4">
-        <div className="circle rounded-full bg-slate-100 opacity-25 translate-y-10 border-t-2  border-white border-solid w-[400px] h-[400px] md:w-[500px]  md:h-[500px] absolute z-[-1]" />
+        <div className="circle rounded-full bg-slate-100 opacity-25 translate-y-10 border-t-2  border-white border-solid w-[300px] h-[300px] md:w-[500px]  md:h-[500px] absolute z-[-1]" />
         <div
-        className={`circle rounded-full bg- ${colorSelected} w-[400px] h-[400px] md:w-[500px] md:h-[500px] absolute -z-10`}
+        className={`circle rounded-full bg- ${colorSelected} w-[300px] h-[300px] md:w-[500px] md:h-[500px] absolute -z-10`}
         />
         <img
-        className="w-[350px] h-[300px] md:w-[500px] md:h-[450px] drop-shadow-lg"
+        className="max-w-[300px] md:w-[500px] md:h-[450px] drop-shadow-lg"
         src={imageSelected}
         alt="Sandal Quero"
         loading="lazy"

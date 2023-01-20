@@ -10,8 +10,8 @@ const Navbar = () => {
         Aos.init({})
       }, [])
     return (
-        <nav data-aos="fade-down" className='relative z-10 '>
-            <div className={`nav-wrapper inline-flex items-center content-center fixed w-screen duration-200 z-10  py-3 px-8 ${isOpen ? 'bg-white' : 'bg-transparent'}`}>
+        <nav data-aos="fade-down" className={`relative z-10`}>
+            <div className={`nav-wrapper inline-flex items-center content-center fixed w-screen z-10  py-3 px-8 ${isOpen ? 'bg-white' : 'bg-transparent'}`}>
             <div  className="logo md:flex-none flex-1 flex items-center">
                 <a href="" className='font-bold flex items-center justify-center'>
                     <img className='w-[150px]' src={logo} alt="Quero" /></a>
@@ -58,10 +58,9 @@ const Navbar = () => {
                 <div className={`w-8 h-1 bg-[#0D7A7F] ${isOpen ? 'transform -rotate-12 -translate-y-1' : ''}`}></div>
                 </div>
             </button>
-            </div>
-            <div className={`nav-hamburger md:hidden absolute w-full top-[70px]  bg-white duration-300 ${isOpen ? 'transform translate-y-[0]' : 'transform -translate-y-[300px]'}`}>
+            <div className={`nav-hamburger absolute nd:hidden w-full top-[70px] left-0 -z-1 `}>
                 <div className="nav-list flex flex-col">
-                    <ul className='gap-2 flex items-center flex-col'>
+                    <ul className={`gap-2 flex items-center flex-col ${isOpen ? 'h-full block bg-white' : 'h-0 hidden'}`}>
                         <li className=''><a className='' href="#showcase">Showcase</a></li>
                         <li className=''><a className='' href="#about">About</a></li>
                         <li className=''><a className='' href="#quero">All Quero</a></li>
@@ -91,6 +90,8 @@ const Navbar = () => {
                     </ul>
                 </div>
             </div>
+            </div>
+           
         </nav>
     )
 }
