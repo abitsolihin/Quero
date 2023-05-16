@@ -67,13 +67,13 @@ return (
         alt="scrolldown"
         loading="lazy"
     />
-    <div data-aos='fade-right'  className="hero-left__section flex-1 h-screen flex items-center justify-center md:justify-start relative pl-4">
+    <div data-aos='fade-right'  className="hero-left__section flex-1 h-screen flex items-center justify-center relative pl-4">
         <div className="circle rounded-full bg-slate-100 opacity-25 translate-y-10 border-t-2  border-white border-solid w-[300px] h-[300px] md:w-[500px]  md:h-[500px] absolute z-[-1]" />
         <div
         className={`circle rounded-full bg- ${colorSelected} w-[300px] h-[300px] md:w-[500px] md:h-[500px] absolute -z-10`}
         />
         <img
-        className="max-w-[300px] md:w-[500px] md:h-[450px] drop-shadow-lg"
+        className="max-w-[300px] md:max-w-[500px] md:h-[450px] drop-shadow-lg"
         src={imageSelected}
         alt="Sandal Quero"
         loading="lazy"
@@ -87,7 +87,7 @@ return (
         alt="Quero"
         loading="lazy"
         />
-        <h2 data-aos='fade-right' data-aos-delay='50' className="text-xl md:text-2xl font-light md:text-[#0D7A7F] text-[#000000]">
+        <h2 data-aos='fade-right' data-aos-delay='50' className="text-xl md:text-2xl font-light md:text-[#0D7A7F] text-[#000000] text-left">
         Modern Slipper
         </h2>
         <h1 data-aos='fade-right' data-aos-delay='100' className="text-4xl md:text-6xl font-bold">
